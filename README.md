@@ -1,3 +1,83 @@
+# Just-Say-It-AI
+
+**Just-Say-It-AI** is a web app that simplifies complex Terms & Conditions into easy-to-understand summaries.
+Paste your T\&Cs, select a category, and let AI explain what really matters.
+
+🚀 **Live demo:** [just-say-it-webapp.vercel.app](https://just-say-it-webapp.vercel.app)
+
+---
+
+## 🖥️ Tech Stack
+
+- **Next.js 14** (App Router)
+- **TypeScript**
+- **Tailwind CSS + shadcn/ui**
+- **OpenAI API**
+- **Deployed on Vercel**
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/[your-username]/just-say-it-ai.git
+   cd just-say-it-ai
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Add your environment variable**
+
+   Create a `.env.local` file with:
+
+   ```
+   OPENAI_API_KEY=your_openai_key_here
+   ```
+
+4. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+   Visit [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🧩 Features
+
+- Simplifies legal jargon using AI
+- Filters results by category or red flags
+- Responsive, mobile-friendly UI
+- Local storage persistence between sessions
+
+---
+
+## 🧭 Roadmap
+
+- [ ] Add login & user history
+- [ ] Store results in database (Prisma / Postgres)
+- [ ] Improve JSON validation & error handling
+- [ ] Add export/share feature
+
+---
+
+## 🪪 License
+
+This project is licensed under the MIT License — feel free to use, modify, and share.
+
+---
+
+## 👩‍💻 Author
+
+Developed by [Riah Amhari](https://github.com/riahamhari)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
